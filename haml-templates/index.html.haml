@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+%html{:lang => "en"}
+%head
+  %meta{:charset => "UTF-8"}/
+  %title Testing haml to html
+%body
+  %h1 Hello word!
+  - %w(1 2 3 4 5).each do
+    %div Testing ruby!
+  %a{:href => "manual.html"} See manual
